@@ -1,8 +1,12 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<p>Subjects:</p>
+<table>
+   <tr>
+      <th>Name</th>
+      <th>Marks</th>
+   </tr>
+   
+   <tr ng-repeat = "subject in student.subjects">
+      <td>{{ subject.name }}</td>
+      <td>{{ subject.marks }}</td>
+   </tr>
+</table>
