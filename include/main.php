@@ -1,16 +1,17 @@
-<table>
-    <tr>
-        <td>Enter First Name</td>
-        <td><input type="text" ng-model="firstName"></td>
-    </tr>
-    <tr>
-        <td>Enter Last Name</td>
-        <td><input type="text" ng-model="lastName"></td>
-    </tr>
-    <tr>
-        <td>Full Name is</td>
-        <td>{{}}</td>
-    </tr>
-    
+<table border = "0">
+   <tr>
+      <td>Enter first name:</td>
+      <td><input type = "text" ng-model = "student.firstName"></td>
+   </tr>
+   
+   <tr>
+      <td>Enter last name: </td>
+      <td><input type = "text" ng-model = "student.lastName"></td>
+   </tr>
+   
+   <tr>
+      <td>Name: </td>
+      <td>{{student.fullName()}}</td>
+   </tr>
 </table>
 
